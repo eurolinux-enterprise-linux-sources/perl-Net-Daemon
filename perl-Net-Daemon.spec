@@ -1,6 +1,6 @@
 Name:           perl-Net-Daemon
 Version:        0.48
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        Perl extension for portable daemons
 
 Group:          Development/Libraries
@@ -86,6 +86,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.48-5
+- Mass rebuild 2013-12-27
+
 * Tue Oct 23 2012 Petr Pisar <ppisar@redhat.com> - 0.48-4
 - Specify all dependencies
 - Correct README end-of-lines
